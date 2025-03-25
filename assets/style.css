@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Finger+Paint&display=swap");
+
+h1 {
+  color: black;
+  font-family: "Finger Paint", sans-serif;
+  font-weight: 500;
+  font-size: 50pt;
+}
+
+li {
+  background: rgb(212, 235, 201);
+  font-family: "Alegreya", serif;
+  font-size: 16pt;
+  width: 50%;
+}
+
+a:link {
+  color: seagreen;
+}
+
+a:hover {
+  color: rgb(0, 223, 149);
+}
+
+.desc {
+  color: darkslategray;
+  font-family: "Alegreya", serif;
+  font-weight: 300;
+  font-size: 20pt;
+}
+
+#houseEX {
+  font-size: 20px;
+  color: inherit;
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  margin: 10px;
+  padding: 20px;
+}
+
+#img {
+  position: relative;
+}
+
+#grid {
+  padding: 15px;
+  margin: 20px;
+}
