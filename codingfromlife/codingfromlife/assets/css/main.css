@@ -1,0 +1,272 @@
+body {
+  background: #cccccc;
+}
+
+#align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#stage {
+  width: 900px;
+  height: 556px;
+  margin: auto;
+  background: white;
+  position: relative;
+}
+
+#triangle {
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 150px solid yellow;
+  position: absolute;
+  top: 203px;
+  left: 60px;
+}
+
+#ramen {
+  width: 200px;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 300px solid rgb(211, 82, 82);
+  top: 210px;
+  left: 400px;
+  rotate: 180deg;
+  position: absolute;
+}
+
+#ramentop {
+  width: 280px;
+  height: 40px;
+  background: rgb(223, 114, 114);
+  border-radius: 100%;
+  top: 190px;
+  left: 400px;
+  position: absolute;
+}
+
+#ramenbottom {
+  width: 200px;
+  height: 50px;
+  background: rgb(211, 82, 82);
+  border-radius: 100%;
+  top: 480px;
+  left: 440px;
+  position: absolute;
+}
+
+#apple {
+  width: 200px;
+  height: 200px;
+  background: rgb(121, 26, 26);
+  border-radius: 100%;
+  top: 280px;
+  left: 560px;
+  position: absolute;
+}
+
+#apple2 {
+  width: 160px;
+  height: 200px;
+  background: rgb(121, 26, 26);
+  border-radius: 70%;
+  top: 280px;
+  left: 630px;
+  position: absolute;
+}
+
+#pokari {
+  width: 180px;
+  height: 300px;
+  background: rgb(39, 78, 151);
+  top: 100px;
+  left: 450px;
+  position: absolute;
+
+  /* uncomment to add keyframe animation */
+  /* animation: spin 2s infinite; */
+}
+
+#pokaritop {
+  width: 180px;
+  height: 30px;
+  border-radius: 100%;
+  background: rgb(183, 183, 183);
+  top: 85px;
+  left: 450px;
+  position: absolute;
+}
+
+#cupin {
+  width: 180px;
+  height: 30px;
+  border-radius: 100%;
+  background: grey;
+  top: 300px;
+  left: 270px;
+  position: absolute;
+}
+
+#cuptop1 {
+  width: 180px;
+  height: 40px;
+  border-radius: 80%;
+  background: rgb(183, 183, 183);
+  top: 300px;
+  left: 270px;
+  position: absolute;
+}
+
+#cuptop2 {
+  width: 141px;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 50px solid rgb(183, 183, 183);
+  top: 320px;
+  left: 273px;
+  position: absolute;
+}
+
+#cupbody {
+  width: 140px;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 130px solid rgb(183, 183, 183);
+  top: 350px;
+  left: 282px;
+  position: absolute;
+}
+
+#cupbottom {
+  width: 140px;
+  height: 80px;
+  background: rgb(183, 183, 183);
+  border-radius: 30%;
+  top: 430px;
+  left: 287px;
+  position: absolute;
+}
+
+#square {
+  width: 150px;
+  height: 150px;
+  background: red;
+  top: 203px;
+  left: 270px;
+  position: absolute;
+
+  /* uncomment to add keyframe animation */
+  /* animation: spin 2s infinite; */
+}
+
+#circle {
+  width: 150px;
+  height: 150px;
+  background: blue;
+  border-radius: 150px;
+  top: 203px;
+  left: 480px;
+  position: absolute;
+}
+
+#doll {
+  width: 180px;
+  height: 200px;
+  border-radius: 100%;
+  background: rgb(238, 207, 135);
+  top: 80px;
+  left: 280px;
+  position: absolute;
+}
+
+#dollchick {
+  width: 140px;
+  height: 130px;
+  border-radius: 100%;
+  background: rgb(238, 207, 135);
+  top: 150px;
+  left: 274px;
+  position: absolute;
+}
+
+#dollbody {
+  width: 140px;
+  height: 300px;
+  border-radius: 100%;
+  background: rgb(212, 177, 96);
+  top: 140px;
+  left: 300px;
+  position: absolute;
+}
+
+#dollear {
+  width: 50px;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 60px solid rgb(233, 189, 85);
+  border-radius: 10%;
+  top: 110px;
+  left: 270px;
+  position: absolute;
+  rotate: 80deg;
+}
+
+#clip {
+  width: 150px;
+  height: 150px;
+  background: green;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  top: 203px;
+  left: 690px;
+  position: absolute;
+
+  /* uncomment for css transitions */
+  /* transition: all 400ms ease; */
+}
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/

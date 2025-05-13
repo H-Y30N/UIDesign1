@@ -7,6 +7,13 @@ h1 {
   font-size: 50pt;
 }
 
+h2 {
+  color: black;
+  font-family: "Alegreya", serif;
+  font-weight: bold;
+  font-size: 20pt;
+}
+
 li {
   background: rgb(212, 235, 201);
   font-family: "Alegreya", serif;
@@ -45,5 +52,5 @@ a:hover {
 
 #grid {
   padding: 15px;
-  margin: 20px;
+  margin: 10px;
 }
