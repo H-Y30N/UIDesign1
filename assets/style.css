@@ -1,10 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Finger+Paint&display=swap");
 
+body.dark {
+  background: #333;
+}
+
+body.dark h1 {
+  color: white;
+  font-family: "Finger Paint", sans-serif;
+  font-weight: 500;
+  font-size: 50pt;
+}
+
 h1 {
   color: black;
   font-family: "Finger Paint", sans-serif;
   font-weight: 500;
   font-size: 50pt;
+}
+body.dark h2 {
+  color: white;
+  font-family: "Alegreya", serif;
+  font-weight: bold;
+  font-size: 20pt;
 }
 
 h2 {
@@ -21,16 +38,39 @@ li {
   width: 50%;
 }
 
+body.dark li {
+  background: rgb(19, 61, 109);
+  font-family: "Alegreya", serif;
+  font-size: 16pt;
+  color: whitesmoke;
+  width: 50%;
+}
+
 a:link {
-  color: seagreen;
+  color: rgb(78, 148, 109);
+}
+
+a:link.dark {
+  color: rgb(22, 185, 210);
 }
 
 a:hover {
   color: rgb(0, 223, 149);
 }
 
+a:hover.dark {
+  color: rgb(0, 255, 242);
+}
+
 .desc {
-  color: darkslategray;
+  color: rgb(61, 77, 77);
+  font-family: "Alegreya", serif;
+  font-weight: 300;
+  font-size: 20pt;
+}
+
+.desc.dark {
+  color: rgb(142, 201, 201);
   font-family: "Alegreya", serif;
   font-weight: 300;
   font-size: 20pt;
