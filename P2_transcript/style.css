@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Love+Ya+Like+A+Sister&family=Song+Myung&family=Instrument+Serif:ital@0;1&family=Noto+Sans+KR:wght@100..900&display=swap");
+@font-face {
+  font-family: "HAN-YONG-UN";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/HAN-YONG-UN.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MBC1961M";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/MBC1961M.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "InkLipquid";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration-line: none;
+  color: rgb(181, 181, 181);
+  font-family: "Love Ya Like A Sister";
+  font-size: 24pt;
+}
+
+.pick {
+  color: black;
+}
+
+.bg_1 {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  z-index: -100;
+}
+
+.bg_2 {
+  position: fixed;
+  left: -160px;
+  bottom: -400px;
+  z-index: -100;
+}
+
+.header {
+  position: fixed;
+  width: 99%;
+  height: 180px;
+  margin: 0.5%;
+}
+
+.menu {
+  position: fixed;
+  top: 100px;
+  left: 600px;
+  font-family: "Instrument Serif";
+  font-size: 26pt;
+  text-align: center;
+  width: 55%;
+  height: 50px;
+  margin: 0.5%;
+}
+
+.column_menu {
+  float: left;
+  height: 32px;
+}
+
+.menu_in {
+  width: 32%;
+}
+
+.column_body {
+  float: left;
+  height: 430px;
+  margin: 0.5%;
+  margin-top: 1.5%;
+  padding: 1%;
+}
+
+.info_1 {
+  width: 28%;
+  margin-left: 70px;
+  margin-top: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  word-break: keep-all;
+  font-style: normal;
+  font-size: 16pt;
+}
+
+.info_2 {
+  position: fixed;
+  width: 28%;
+  top: 550px;
+  right: 200px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  word-break: keep-all;
+  font-style: normal;
+  font-size: 16pt;
+}
+
+.info_button_1 {
+  position: fixed;
+  font-style: normal;
+  word-break: keep-all;
+  font-family: "MBC1961M";
+  display: inline-block;
+  transform: scale(1, 1.5); /* Safari and Chrome */
+  font-size: 20pt;
+  top: 400px;
+  left: 400px;
+  width: 17%;
+  height: 80px;
+  margin: 10px;
+  line-height: 130%;
+}
+
+.info_button_2 {
+  position: fixed;
+  font-style: normal;
+  word-break: keep-all;
+  font-family: "MBC1961M";
+  display: inline-block;
+  transform: scale(1, 1.5); /* Safari and Chrome */
+  font-size: 20pt;
+  top: 350px;
+  right: 500px;
+  width: 20%;
+  height: 80px;
+  margin: 10px;
+  line-height: 130%;
+}
+
+.text_1 {
+  position: fixed;
+  font-family: "HAN-YONG-UN", "Homemade Apple";
+  top: 240px;
+  right: 400px;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  word-break: keep-all;
+  line-height: 130%;
+  font-size: 43pt;
+  width: 24%;
+  display: flex;
+  align-items: center;
+}
+
+.text_2 {
+  position: fixed;
+  font-family: "Homemade Apple", "HAN-YONG-UN";
+  top: 240px;
+  left: 250px;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  word-break: keep-all;
+  line-height: 130%;
+  font-size: 43pt;
+  width: 24%;
+  display: flex;
+  align-items: center;
+}
+
+.bottom {
+  font-family: "Song Myung", serif;
+  font-weight: 200;
+  font-style: normal;
+  position: absolute;
+  text-align: center;
+  bottom: 2px;
+  width: 99%;
+  height: 50px;
+  margin: 0.5%;
+  color: rgb(150, 155, 160);
+}
+
+.recommender_1 {
+  position: fixed;
+  font-style: normal;
+  word-break: keep-all;
+  font-family: "InkLipquid";
+  font-size: 21pt;
+  top: 300px;
+  left: 50px;
+  width: 10%;
+  height: 80px;
+  margin: 10px;
+  line-height: 160%;
+  rotate: -15deg;
+}
+
+.recommender_2 {
+  position: fixed;
+  font-style: normal;
+  word-break: keep-all;
+  font-family: "InkLipquid";
+  font-size: 21pt;
+  top: 300px;
+  right: 50px;
+  width: 10%;
+  height: 80px;
+  margin: 10px;
+  line-height: 160%;
+  rotate: 15deg;
+}
+
+.form {
+  position: fixed;
+  bottom: 80px;
+  right: 100px;
+}
+
+.form_text {
+  position: fixed;
+  left: 100px;
+  top: 300px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  word-break: keep-all;
+  font-style: normal;
+  font-size: 16pt;
+  width: 30%;
+}
+
+.syncButn {
+  cursor: pointer;
+  position: fixed;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  font-optical-sizing: auto;
+  opacity: 1;
+}
+
+.butn01 {
+  bottom: 90px;
+  right: 150px;
+}
+
+.butn02 {
+  bottom: 70px;
+  left: 170px;
+}
+
+.syncButn:hover {
+  opacity: 0.5;
+}
