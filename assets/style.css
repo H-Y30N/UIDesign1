@@ -49,8 +49,14 @@ body.dark li {
 a:link {
   color: rgb(78, 148, 109);
 }
+a:visited {
+  color: rgb(78, 148, 109);
+}
 
 a:link.dark {
+  color: rgb(22, 185, 210);
+}
+a:visited.dark {
   color: rgb(22, 185, 210);
 }
 
